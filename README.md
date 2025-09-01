@@ -1,95 +1,46 @@
-# Lawyer-Assist-AI
+# Getting Started with Create React App
 
-A comprehensive AI-powered legal assistance platform that helps lawyers and legal professionals with document analysis, chat assistance, and workflow automation.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- **Document Analysis**: Upload and analyze legal documents with AI-powered insights
-- **Chat Assistant**: Interactive chat interface for legal queries and assistance
-- **PDF Viewer**: Advanced PDF viewing and annotation capabilities
-- **Template Management**: Legal document templates and forms
-- **Recording & Transcription**: Voice recording and transcription features
-- **Dashboard**: Comprehensive overview of legal workflows and tasks
+In the project directory, you can run:
 
-## Tech Stack
+### `npm start`
 
-- **Frontend**: React with TypeScript
-- **Styling**: Tailwind CSS
-- **State Management**: Zustand
-- **UI Components**: Custom components with shadcn/ui
-- **PDF Handling**: React PDF libraries
-- **Authentication**: Protected routes and user management
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Project Structure
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-```
-Lawyer-Assist-AI/
-├── lawyer-assist-ui/          # Main React application
-│   ├── src/
-│   │   ├── components/        # Reusable UI components
-│   │   ├── pages/            # Application pages
-│   │   ├── stores/           # State management
-│   │   ├── services/         # API services
-│   │   └── types/            # TypeScript type definitions
-│   └── public/               # Static assets
-└── src/                      # Additional source files
-```
+### `npm test`
 
-## Getting Started
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Prerequisites
+### `npm run build`
 
-- Node.js (v16 or higher)
-- npm or yarn
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Installation
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. Clone the repository:
-```bash
-git clone https://github.com/shikhin-1998/Lawyer-Assist-AI.git
-cd Lawyer-Assist-AI
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-2. Install dependencies:
-```bash
-cd lawyer-assist-ui
-npm install
-```
+### `npm run eject`
 
-3. Start the development server:
-```bash
-npm start
-```
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-The application will be available at `http://localhost:3000`
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Development
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-### Available Scripts
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-- `npm start` - Start development server
-- `npm build` - Build for production
-- `npm test` - Run tests
-- `npm run eject` - Eject from Create React App
+## Learn More
 
-### Branch Strategy
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- `main` - Production-ready code
-- `dev_shikhin` - Development branch for Shikhin's work
-- Feature branches for specific features
-
-## Contributing
-
-1. Create a feature branch from `dev_shikhin`
-2. Make your changes
-3. Test thoroughly
-4. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contact
-
-- Developer: Shikhin
-- GitHub: [shikhin-1998](https://github.com/shikhin-1998)
+To learn React, check out the [React documentation](https://reactjs.org/).
